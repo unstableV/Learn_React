@@ -1,22 +1,15 @@
+import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Card from './components/Card';
-import data from './data';
-export default function App() {
+import Header from './component/Header';
+import Main from './component/Main';
 
-  const card = data.map((item)=> {
-                return (
-                  <Card
-                      item = {item}
-  />
-                )
-  })
+function App() {
   return (
-    <>
-  <Navbar/>
-   {card}
-  <Main/>
-   </>
+    <div className="App">
+      <Header/>
+      <Main/>
+    </div>
   );
 }
+
+export default App;
