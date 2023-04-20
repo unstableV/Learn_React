@@ -1,7 +1,6 @@
-// const api_call = "http://api.openweathermap.org/data/2.5/weather?q=" +city+'&'+country+ "&mode=json&appid="+"b002f54113c837f289e9a25a062f0d80"+"&units=metric";
 
 async function getapi(city,country) {
-    const url = "http://api.openweathermap.org/data/2.5/weather?q=" +city+'&'+country+ "&mode=json&appid="+"b002f54113c837f289e9a25a062f0d80"+"&units=metric";
+    const url = ""
 
     // Storing response
     const response = await fetch(url);
